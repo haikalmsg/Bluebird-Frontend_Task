@@ -1,0 +1,12 @@
+.Home{
+    margin: 50px 5vw;
+}
+.buttonContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.btnHome{
+    min-width: 100px;
+}
