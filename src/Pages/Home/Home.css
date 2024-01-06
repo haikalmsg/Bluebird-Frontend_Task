@@ -1,6 +1,4 @@
-.Home{
-    margin: 50px 5vw;
-}
+
 .buttonContainer{
     margin-top: 40px;
     display: flex;
@@ -9,4 +7,26 @@
 }
 .btnHome{
     min-width: 100px;
+}
+.CardsWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.heroWrapper{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #56CAFB;
+}
+.categoryTitle{
+    margin-top: 50px;
+}
+.contentsWrapper{
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
