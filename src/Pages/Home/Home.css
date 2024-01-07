@@ -24,9 +24,16 @@
 .categoryTitle{
     margin-top: 50px;
 }
+input{
+    margin-top: 25px;
+}
 .contentsWrapper{
     height: 93vh;
     display: flex;
     flex-direction: column;
     gap: 100px;
+}
+.btnHero{
+    width: 100px;
+    margin: 20px auto;
 }

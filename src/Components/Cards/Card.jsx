@@ -1,9 +1,9 @@
 import React from "react";
-import { Card} from "react-bootstrap";
+import { Card, Button} from "react-bootstrap";
 
 
 function CardComponent(props) {
-    const {vehicle, imageURL, price, description} = props.data;
+    const {id,vehicle, imageURL, price, description} = props.data;
     return (
     <Card style={{ width: '18rem' }} className="card">
       <Card.Img variant="top" src={imageURL} />
@@ -17,6 +17,7 @@ function CardComponent(props) {
           <br/>
           Charger : {description[1]}
         </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
     )
